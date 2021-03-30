@@ -1,0 +1,72 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+header{
+    height: 125px;
+    background: black;
+}
+nav {
+    height:50px;
+    line-height: 50px;
+    background:#05a;
+    
+}
+
+nav ul{
+    
+    list-style-type: none;
+}
+
+nav li{
+    
+    float:left;
+    width:20%;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    display:block;
+    color:#fff;
+}
+nav a:hover{
+    
+    background:#028;
+    
+}
+
+nav#secondary {
+    height:auto;
+    
+}
+nav#secondary li {
+    float:none;
+    width:auto;
+    text-align: left;
+    
+}
+
+nav#secondary a {
+    padding-left: 20px;
+    
+}
+
+.home nav li:nth-child(1) a,
+ .about nav li:nth-child(2) a,
+.tours nav li:nth-child(3) a,
+.promos nav li:nth-child(4) a,
+{
+    background:#028;
+    
+}
+
+.tours nav#secondary li a {
+    background:#05a;
+    
+}
+.tours nav#secondary li a:hover {
+    background:#002288;
+    
+}
